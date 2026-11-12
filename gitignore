@@ -1,0 +1,31 @@
+# H2 Database
+backend/data/
+*.mv.db
+*.trace.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+
+# Java / Maven
+backend/target/
+*.class
+*.log
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
